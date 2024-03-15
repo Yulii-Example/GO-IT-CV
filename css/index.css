@@ -3,12 +3,13 @@ body {
     padding: 40px 40px 40px 40px;
     font-family: "Montserrat", sans-serif;
 }
+
 .wrap {
     background: #ffffff;
-display: flex;
-flex-direction: row-reverse;
-justify-content: center;
-margin: 0 auto;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    margin: 0 auto;
 }
 
 .main {
@@ -17,4 +18,103 @@ margin: 0 auto;
     padding-right: 40px;
     padding-bottom: 80px;
     box-sizing: border-box;
+}
+
+.sidebar {
+    background: #E0EBFE;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    box-sizing: border-box;
+    width: 370px;
+}
+
+.sidebar__content {
+    padding-left: 40px;
+    padding-top: 40px;
+    padding-right: 40px;
+    box-sizing: border-box;
+}
+
+.contacts__title {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 27px;
+    color: #161D2A;
+    margin-top: 0;
+    margin-bottom: 8px;
+}
+
+.contacts__type {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #161D2A;
+    margin-right: 8px;
+}
+
+.contacts__link {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    text-decoration-line: underline;
+    color: #2979FF;
+}
+
+.contacts__item {
+    margin-top: 0;
+    margin-bottom: 4px;
+}
+
+.contacts {
+    margin-bottom: 40px;
+}
+
+.techskills {
+    margin-bottom: 40px;
+}
+
+.techskills__title {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 0;
+    margin-bottom: 8px;
+    color: #161D2A;
+}
+
+
+.skills__list {
+    padding-left: 16px;
+}
+
+
+.skills__list-item {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #161D2A;
+}
+
+.softskills {
+    margin-bottom: 40px;
+}
+
+.softskills__title {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 0;
+    margin-bottom: 8px;
+    color: #161D2A;
+}
+
+.softskills__list {
+    padding-left: 16px;
+}
+
+.softskills__list-item {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #161D2A;
 }
