@@ -1,284 +1,332 @@
 body {
-    background-color: #f6f6fa;
-    padding: 40px 40px 40px 40px;
-    font-family: "Montserrat", sans-serif;
+  background-color: #f6f6fa;
+  padding: 40px 40px 40px 40px;
+  font-family: "Montserrat", sans-serif;
 }
 
 ul,
 ol {
-    margin-top: 0;
-    margin-bottom: 0;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .wrap {
-    background: #ffffff;
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: center;
-    margin: 0 auto;
-    width: 1200px;
+  background: #ffffff;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  margin: 0 auto;
+  width: 1200px;
 }
 
 .main {
-    padding-left: 88px;
-    padding-top: 80px;
-    padding-right: 40px;
-    padding-bottom: 80px;
-    box-sizing: border-box;
+  padding-left: 88px;
+  padding-top: 80px;
+  padding-right: 40px;
+  padding-bottom: 80px;
+  box-sizing: border-box;
 }
 
 .sidebar {
-    background: #E0EBFE;
-    padding-top: 40px;
-    padding-bottom: 40px;
-    box-sizing: border-box;
-    width: 370px;
+  background: #e0ebfe;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  box-sizing: border-box;
+  width: 370px;
 }
 
 .sidebar__content {
-    padding-left: 40px;
-    padding-top: 40px;
-    padding-right: 40px;
-    box-sizing: border-box;
+  padding-left: 40px;
+  padding-top: 40px;
+  padding-right: 40px;
+  box-sizing: border-box;
 }
 
 .contacts__title {
-    font-size: 22px;
-    font-weight: 700;
-    line-height: 27px;
-    color: #161D2A;
-    margin-top: 0;
-    margin-bottom: 8px;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 27px;
+  color: #161d2a;
+  margin-top: 0;
+  margin-bottom: 8px;
 }
 
 .contacts__type {
-    font-size: 14px;
-    font-weight: 700;
-    line-height: 24px;
-    color: #161D2A;
-    margin-right: 8px;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+  color: #161d2a;
+  margin-right: 8px;
 }
 
 .contacts__link {
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 24px;
-    text-decoration-line: underline;
-    color: #2979FF;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  text-decoration-line: underline;
+  color: #2979ff;
 }
 
 .contacts__item {
-    margin-top: 0;
-    margin-bottom: 4px;
+  margin-top: 0;
+  margin-bottom: 4px;
 }
 
 .contacts {
-    margin-bottom: 40px;
+  margin-bottom: 40px;
 }
 
 .techskills {
-    margin-bottom: 40px;
+  margin-bottom: 40px;
 }
 
 .techskills__title {
-    font-size: 22px;
-    font-weight: 700;
-    line-height: normal;
-    margin-top: 0;
-    margin-bottom: 8px;
-    color: #161D2A;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 0;
+  margin-bottom: 8px;
+  color: #161d2a;
 }
-
 
 .skills__list {
-    padding-left: 16px;
+  padding-left: 16px;
 }
 
-
 .skills__list-item {
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 24px;
-    color: #161D2A;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #161d2a;
 }
 
 .softskills {
-    margin-bottom: 40px;
+  margin-bottom: 40px;
 }
 
 .softskills__title {
-    font-size: 22px;
-    font-weight: 700;
-    line-height: normal;
-    margin-top: 0;
-    margin-bottom: 8px;
-    color: #161D2A;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 0;
+  margin-bottom: 8px;
+  color: #161d2a;
 }
 
 .softskills__list {
-    padding-left: 16px;
+  padding-left: 16px;
 }
 
 .softskills__list-item {
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 24px;
-    color: #161D2A;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #161d2a;
 }
 
 .my__profession {
-    font-size: 14px;
-    font-weight: 700;
-    line-height: 17px;
-    color: #000000;
-    margin-top: 0;
-    margin-bottom: 8px;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 17px;
+  color: #000000;
+  margin-top: 0;
+  margin-bottom: 8px;
 }
 
 .my__name {
-    font-size: 45px;
-    font-weight: 700;
-    line-height: 55px;
-    color: #000000;
-    margin-top: 0;
-    margin-bottom: 12px;
+  font-size: 45px;
+  font-weight: 700;
+  line-height: 55px;
+  color: #000000;
+  margin-top: 0;
+  margin-bottom: 12px;
 }
 
 .my__descr {
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 24px;
-    color: #595959;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #595959;
 }
 
 .myInfo {
-    margin-bottom: 40px;
+  margin-bottom: 40px;
 }
 
 .myProjects__title {
-    font-size: 22px;
-    font-weight: 700;
-    line-height: 27px;
-    color: #000000;
-    margin-bottom: 8px;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 27px;
+  color: #000000;
+  margin-bottom: 8px;
 }
 
 .myProjects__item {
-    font-size: 14px;
-    font-weight: 700;
-    line-height: 27px;
-    color: #000000;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 27px;
+  color: #000000;
 }
 
 .myProjects__list {
-    padding-left: 16px;
+  padding-left: 16px;
 }
 
 .myProjects__item-link {
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 24px;
-    text-decoration-line: underline;
-    color: #005fff;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  text-decoration-line: underline;
+  color: #005fff;
 }
 
 .myProjects__item-tech {
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 24px;
-    color: #595959
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #595959;
 }
 
 .myProjects {
-    margin-bottom: 40px;
+  margin-bottom: 40px;
 }
 
 .company__exp-title {
-    font-size: 22px;
-    font-weight: 700;
-    line-height: 27px;
-    color: #000000;
-    margin-top: 0;
-    margin-bottom: 8px;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 27px;
+  color: #000000;
+  margin-top: 0;
+  margin-bottom: 8px;
 }
 
 .company__exp-prof {
-    font-size: 16px;
-    font-weight: 700;
-    line-height: 27px;
-    color: #000000;
-    margin-top: 0;
-    margin-bottom: 12px;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 27px;
+  color: #000000;
+  margin-top: 0;
+  margin-bottom: 12px;
 }
 
 .company__exp-prof span {
-    color: #6D9BF5;
+  color: #6d9bf5;
 }
 
 .company__exp-period {
-    color: #A8A8A8;
-    font-size: 12px;
-    font-weight: 400;
-    line-height: 15px;
-    margin-bottom: 8px;
+  color: #a8a8a8;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 15px;
+  margin-bottom: 8px;
 }
 
 .company__exp-period span {
-    color: #000000;
+  color: #000000;
 }
 
 .company__duties-list {
-    padding-left: 16px;
-
+  padding-left: 16px;
 }
 
 .company__duties__list-item {
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 24px;
-    color: #595959;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #595959;
 }
 
 .company__one,
 .company__two,
 .company__three {
-    margin-bottom: 12px;
+  margin-bottom: 12px;
 }
 
 .educ {
-    margin-top: 40px;
+  margin-top: 40px;
 }
 .educ__title {
-    font-size: 22px;
-    font-weight: 700;
-    line-height: 27px;
-    color: #000000;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 27px;
+  color: #000000;
 }
 
 .educ__univers {
-    color: #6D9BF5;
-    font-size: 16px;
-    font-weight: 700;
-    line-height: 20px;
-    margin-top: 8px;
+  color: #6d9bf5;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  margin-top: 8px;
 }
 
 .educ__facult {
-    font-size: 14px;
-    font-weight: 700;
-    line-height: 17px;
-    color: #000000;
-    margin-top: 8px;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 17px;
+  color: #000000;
+  margin-top: 8px;
 }
 
 .educ__period {
-    font-size: 12px;
-    font-weight: 400;
-    line-height: 15px;
-    color: #A8A8A8;
-    margin-top: 8px;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 15px;
+  color: #a8a8a8;
+  margin-top: 8px;
 }
 
 .educ__period span {
-    color: #000000;
+  color: #000000;
+}
+
+@media screen and (max-width: 960px) {
+  body {
+    padding: 20px 20px 20px 20px;
+  }
+  .main {
+    padding: 40px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .sidebar {
+    width: 250px;
+  }
+  .my-photo {
+    width: 250px;
+  }
+  .sidebar__content {
+    padding: 20px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    padding: 0;
+  }
+  .sidebar {
+    width: 200px;
+  }
+  .my-photo {
+    width: 200px;
+  }
+  .main {
+    padding: 20px;
+  }
+  .my__name {
+    font-size: 28px;
+  }
+}
+
+@media screen and (max-width: 510px) {
+.wrap {
+    flex-direction: column;
+}
+.my-photo {
+    width: 100%;
+  }
+  .sidebar__content {
+    padding: 100%;
+  }
 }
